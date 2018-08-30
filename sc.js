@@ -24,10 +24,17 @@ var sc =  {
         19: "What is the misery of that estate whereinto man fell?",
         20: "Did God leave all mankind to perish in the estate of sin and misery?",
         21: "Who is the Redeemer of God's elect?",
-        22: "",
-        23: "",
-        24: "",
-        25: "",
+        22: "How did Christ, being the Son of God, become man?",
+        23: "What offices doth Christ execute as our Redeemer?",
+        24: "How doth Christ execute the office of a prophet?",
+        25: "How doth Christ execute the office of a priest?",
+	26: "How doth Christ execute the office of a king?",
+	27: "Wherein did Christ's humiliation consist?",
+	28: "",
+	29: "",
+	30: "",
+	31: "",
+	32: "",
     },
 
     a: {
@@ -52,28 +59,19 @@ var sc =  {
         19: "All mankind by their fall lost communion with God, are under his wrath and curse, and so made liable to all miseries in this life, to death itself, and to the pains of hell for ever.",
         20: "God having, out of his mere good pleasure, from all eternity, elected some to everlasting life, did enter into a covenant of grace, to deliver them out of the estate of sin and misery, and to bring them into an estate of salvation by a Redeemer.",
         21: "The only Redeemer of God's elect, is the Lord Jesus Christ, who, being the eternal Son of God, became man, and so was, and continueth to be, God and man in two distinct natures, and one person, for ever.",
+	22: "Christ, the Son of God, became man, by taking to himself a true body, and a reasonable soul, being conceived by the power of the Holy Ghost, in the womb of the Virgin Mary, and born of her, yet without sin.",
+	23: "Christ, as our Redeemer, executeth the offices of a prophet, of a priest, and of a king, both in his estate of humiliation and exaltation.",
+	24: "Christ executeth the office of a prophet, in revealing to us, by his word and Spirit, the will of God for our salvation.",
+	25: "Christ executeth the office of a priest, in his once offering up of himself a sacrifice to satisfy divine justice, and reconcile us to God; and in making continual intercession for us.",
+	26: "Christ executeth the office of a king, in subduing us to himself, in ruling and defending us, and in restraining and conquering all his and our enemies.",
+	27: "Christ's humiliation consisted in his being born, and that in a low condition, made under the law, undergoing the miseries of this life, the wrath of God, and the cursed death of the cross; in being buried, and continuing under the power of death for a time.",
+
     }
 };
     
 
 
-22. How did Christ, being the Son of God, become man?
-A. Christ, the Son of God, became man, by taking to himself a true body, and a reasonable soul, being conceived by the power of the Holy Ghost, in the womb of the Virgin Mary, and born of her, yet without sin.
 
-23. What offices doth Christ execute as our Redeemer?
-A. Christ, as our Redeemer, executeth the offices of a prophet, of a priest, and of a king, both in his estate of humiliation and exaltation.
-
-24. How doth Christ execute the office of a prophet?
-A. Christ executeth the office of a prophet, in revealing to us, by his word and Spirit, the will of God for our salvation.
-
-25. How doth Christ execute the office of a priest?
-A. Christ executeth the office of a priest, in his once offering up of himself a sacrifice to satisfy divine justice, and reconcile us to God; and in making continual intercession for us.
-
-26. How doth Christ execute the office of a king?
-A. Christ executeth the office of a king, in subduing us to himself, in ruling and defending us, and in restraining and conquering all his and our enemies.
-
-27. Wherein did Christ's humiliation consist?
-A. Christ's humiliation consisted in his being born, and that in a low condition, made under the law, undergoing the miseries of this life, the wrath of God, and the cursed death of the cross; in being buried, and continuing under the power of death for a time.
 
 28. Wherein consisteth Christ's exaltation?
 A. Christ's exaltation consisteth in his rising again from the dead on the third day, in ascending up into heaven, in sitting at the right hand of God the Father, and in coming to judge the world at the last day.
