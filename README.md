@@ -1,1 +1,1 @@
-# ShorterCatecism
+# ShorterCatechism
