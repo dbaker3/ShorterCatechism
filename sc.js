@@ -55,6 +55,60 @@ var sc =  {
         51: "What is forbidden in the second commandment?",
         52: "What are the reasons annexed to the second commandment?",
         53: "Which is the third commandment?",
+        54: "What is required in the third commandment?",
+        55: "What is forbidden in the third commandment?",
+        56: "What is the reason annexed to the third commandment?",
+        57: "Which is the fourth commandment?",
+        58: "What is required in the fourth commandment?",
+        59: "Which day of the seven hath God appointed to be the weekly sabbath?",
+        60: "How is the sabbath to be sanctified?",
+        61: "What is forbidden in the fourth commandment?",
+        62: "What are the reasons annexed to the fourth commandment?",
+        63: "Which is the fifth commandment?",
+        64: "What is required in the fifth commandment?",
+        65: "What is forbidden in the fifth commandment?",
+        66: "What is the reason annexed to the fifth commandment?",
+        67: "Which is the sixth commandment?",
+        68: "What is required in the sixth commandment?",
+        69: "What is forbidden in the sixth commandment?",
+        70: "Which is the seventh commandment?",
+        71: "What is required in the seventh commandment?",
+        72: "What is forbidden in the seventh commandment?",
+        73: "Which is the eighth commandment?",
+        74: "What is required in the eighth commandment.",
+        75: "What is forbidden in the eighth commandment?",
+        76: "Which is the ninth commandment?",
+        77: "What is required in the ninth commandment?",
+        78: "What is forbidden in the ninth commandment?",
+        79: "Which is the tenth commandment?",
+        80: "What is required in the tenth commandment?",
+        81: "What is forbidden in the tenth commandment?",
+        82: "Is any man able perfectly to keep the commandments of God?",
+        83: "Are all transgressions of the law equally heinous?",
+        84: "What doth every sin deserve?",
+        85: "What doth God require of us, that we may escape his wrath and curse due to us for sin?",
+        86: "What is faith in Jesus Christ?",
+        87: "What is repentance unto life?",
+        88: "What are the outward means whereby Christ communicateth to us the benefits of redemption?",
+        89: "How is the word made effectual to salvation?",
+        90: "How is the word to be read and heard, that it may become effectual to salvation?",
+        91: "How do the sacraments become effectual means of salvation?",
+        92: "What is a sacrament?",
+        93: "Which are the sacraments of the New Testament?",
+        94: "What is baptism?",
+        95: "To whom is baptism to be administered?",
+        96: "What is the Lord's supper?",
+        97: "What is required to the worthy receiving of the Lord's supper?",
+        98: "What is prayer?",
+        99: "What rule hath God given for our direction in prayer?",
+        100: "What doth the preface of the Lord's prayer teach us?",
+        101: "What do we pray for in the first petition?",
+        102: "What do we pray for in the second petition?",
+        103: "What do we pray for in the third petition?",
+        104: "What do we pray for in the fourth petition?",
+        105: "What do we pray for in the fifth petition?",
+        106: "What do we pray for in the sixth petition?",
+        107: "What doth the conclusion of the Lord's prayer teach us?",
     },
     a: {
         1: "Man's chief end is to glorify God and to enjoy him forever.",
@@ -110,168 +164,61 @@ var sc =  {
         51: "The second commandment forbiddeth the worshipping of God by images, or any other way not appointed in his word.",
         52: "The reasons annexed to the second commandment are, God's sovereignty over us, his propriety in us, and the zeal he hath to his own worship.",
         53: "The third commandment is, \"Thou shalt not take the name of the Lord thy God in vain: for the Lord will not hold him guiltless that taketh his name in vain.\"",
+        54: "The third commandment requireth the holy and reverent use of God's names, titles, attributes, ordinances, word, and works.",
+        55: "The third commandment forbiddeth all profaning or abusing of any thing whereby God maketh himself known.",
+        56: "The reason annexed to the third commandment is, That however the breakers of this commandment may escape punishment from men, yet the Lord our God will not suffer them to escape his righteous judgment.",
+        57: "The fourth commandment is, \"Remember the sabbath-day, to keep it holy.  Six days shalt thou labour, and do all thy work: but the seventh is the sabbath of the Lord thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, they man-servant, nor thy maid-servant, nor thy cattle, nor thy stranger that is within thy gates: for in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the Lord blessed the sabbath-day and hallowed it.\"",
+        58: "The fourth commandment requireth the keeping holy to God such set times as he hath appointed in his word; expressly one whole day in seven, to be a holy sabbath to himself.",
+        59: "From the beginning of the world to the resurrection of Christ, God appointed the seventh day of the week to be the weekly sabbath; and the first day of the week ever since, to continue to the end of the world, which is the Christian sabbath.",
+        60: "The sabbath is to be sanctified by a holy resting all that day, even from such worldly employments and recreations as are lawful on other days; and spending the whole time in the public and private exercises of God's worship, except so much as is to be taken up in the works of necessity and mercy.",
+        61: "The fourth commandment forbiddeth the omission or careless performance of the duties required, and the profaning the day by idleness, or doing that which is in itself sinful, or by unnecessary thoughts, words, or works, about our worldly employments or recreations.",
+        62: "The reasons annexed to the fourth commandment are, God's allowing us six days of the week for our own employments, his challenging a special propriety in the seventh, his own example, and his blessing the sabbath-day.",
+        63: "The fifth commandment is, \"Honour thy father and thy mother; that thy days may be long upon the land which the Lord thy God giveth thee.\"",
+        64: "The fifth commandment requireth the preserving the honour, and performing the duties, belonging to every one in their several places and relations, as superiors, inferiors, or equals.",
+        65: "The fifth commandment forbiddeth the neglecting of, or doing anything against, the honour and duty which belongeth to every one in their several places and relations.",
+        66: "The reason annexed to the fifth commandment, is a promise of long life and prosperity (as far as it shall serve for God's glory and their own good) to all such as keep this commandment.",
+        67: "The sixth commandment is, \"Thou shalt not kill.\"",
+        68: "The sixth commandment requireth all lawful endeavours to preserve our own life, and the life of others.",
+        69: "The sixth commandment forbiddeth the taking away of our own life, or the life of our neighbour unjustly, or whatsoever tendeth thereunto.",
+        70: "The seventh commandment is, \"Thou shalt not commit adultery.\"",
+        71: "The seventh commandment requireth the preservation of our own and our neighbour's chastity, in heart, speech, and behaviour.",
+        72: "The seventh commandment forbiddeth all unchaste thoughts, words, and actions.",
+        73: "The eighth commandment is, \"Thou shalt not steal.\"",
+        74: "The eighth commandment requireth the lawful procuring and furthering the wealth and outward estate of ourselves and others.",
+        75: "The eighth commandment forbiddeth whatsoever doth or may unjustly hinder our own or our neighbour's wealth or outward estate.",
+        76: "The ninth commandment is, \"Thou shalt not bear false witness against thy neighbour.\"",
+        77: "The ninth commandment requireth the maintaining and promoting of truth between man and man, and of our own and our neighbour's good name, especially in witness-bearing.",
+        78: "The ninth commandment forbiddeth whatsoever is prejudicial to the truth, or injurious to our own or our neighbour's good name.",
+        79: "The tenth commandment is, \"Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his man-servant, nor his maid-servant, nor his ox, nor his ass, nor any thing that is thy neighbour's.\"",
+        80: "The tenth commandment requireth full contentment with our own condition, with a right and charitable frame of spirit toward our neighbour, and all that is his.",
+        81: "The tenth commandment forbiddeth all discontentment with our own estate, envying or grieving at the good of our neighbour, and all inordinate motions and affections to any thing that is his.",
+        82: "No mere man since the fall is able in this life perfectly to keep the commandments of God, but doth daily break them in thought, word, and deed.",
+        83: "Some sins in themselves, and by reason of several aggravations, are more heinous in the sight of God than others.",
+        84: "Every sin deserveth God's wrath and curse, both in this life, and that which is to come.",
+        85: "To escape the wrath and curse of God due to us for sin, God requireth of us faith in Jesus Christ, repentance unto life, with the diligent use of all the outward means whereby Christ communicateth to us the benefits of redemption.",
+        86: "Faith in Jesus Christ is a saving grace, whereby we receive and rest upon him alone for salvation, as he is offered to us in the gospel.",
+        87: "Repentance unto life is a saving grace, whereby a sinner, out of a true sense of his sin, and apprehension of the mercy of God in Christ, doth, with grief and hatred of his sin, turn from it unto God, with full purpose of, and endeavour after, new obedience.",
+        88: "The outward and ordinary means whereby Christ communicateth to us the benefits of redemption, are his ordinances, especially the word, sacraments, and prayer; all which are made effectual to the elect for salvation.",
+        89: "The Spirit of God maketh the reading, but especially the preaching of the word, an effectual means of convincing and converting sinners, and of building them up in holiness and comfort, through faith, unto salvation.",
+        90: "That the word may become effectual to salvation, we must attend thereunto with diligence, preparation, and prayer; receive it with faith and love, lay it up in our hearts, and practise it in our lives.",
+        91: "The sacraments become effectual means of salvation, not from any virtue in them, or in him that doth administer them; but only by the blessing of Christ, and the working of his Spirit in them that by faith receive them.",
+        92: "A sacrament is an holy ordinance instituted by Christ; wherein, by sensible signs, Christ, and the benefits of the new covenant, are represented, sealed, and applied to believers.",
+        93: "The sacraments of the New Testament are, Baptism, and the Lord's Supper.",
+        94: "Baptism is a sacrament, wherein the washing with water in the name of the Father, and of the Son, and of the Holy Ghost, doth signify and seal our ingrafting into Christ, and partaking of the benefits of the covenant of grace, and our engagement to be the Lord's.",
+        95: "Baptism is not to be administered to any that are out of the visible church, till they profess their faith in Christ, and obedience to him; but the infants of such as are members of the visible church are to be baptized.",
+        96: "The Lord's supper is a sacrament, wherein, by giving and receiving bread and wine, according to Christ's appointment, his death is shewed forth; and the worthy receivers are, not after a corporal and carnal manner, but by faith, made partakers of his body and blood, with all his benefits, to their spiritual nourishment, and growth in grace.",
+        97: "It is required of them that would worthily partake of the Lord's supper, that they examine themselves of their knowledge to discern the Lord's body, of their faith to feed upon him, of their repentance, love, and new obedience; lest, coming unworthily, they eat and drink judgment to themselves.",
+        98: "Prayer is an offering up of our desires unto God, for things agreeable to his will, in the name of Christ, with confession of our sins, and thankful acknowledgment of his mercies.",
+        99: "The whole word of God is of use to direct us in prayer; but the special rule of direction is that form of prayer which Christ taught his disciples, commonly called \"The Lord's prayer.\"",
+        100: "The preface of the Lord's prayer (which is, \"Our Father which art in heaven\") teacheth us to draw near to God with all holy reverence and confidence, as children to a father, able and ready to help us; and that we should pray with and for others.",
+        101: "In the first petition (which is, \"Hallowed by thy name\") we pray, That God would enable us and others to glorify him in all that whereby he maketh himself known; and that he would dispose all things to his own glory.",
+        102: "In the second petition (which is, \"Thy kingdom come\") we pray, That Satan's kingdom may be destroyed; and that the kingdom of grace may be advanced, ourselves and others brought into it, and kept in it; and that the kingdom of glory may be hastened.",
+        103: "In the third petition (which is, \"Thy will be done in earth, as it is in heaven\") we pray, That God, by his grace, would make us able and willing to know, obey, and submit to his will in all things, as the angels do in heaven.",
+        104: "In the fourth petition (which is, \"Give us this day our daily bread\") we pray, That of God's free gift we may receive a competent portion of the good things of this life, and enjoy his blessing with them.",
+        105: "In the fifth petition (which is, \"And forgive us our debts, as we forgive our debtors\") we pray, That God, for Christ's sake, would freely pardon all our sins; which we are the rather encouraged to ask, because by his grace we are enabled from the heart to forgive others.",
+        106: "In the sixth petition (which is, \"And lead us not into temptation, but deliver us from evil\") we pray that God would either keep us from being tempted to sin, or support and deliver us when we are tempted.",
+        107: "The conclusion of the Lord's prayer (which is, \"For thine is the kingdom, and the power, and the glory, for ever. Amen\") teacheth us to take our encouragement in prayer from God only, and in our prayers to praise him, ascribing kingdom, power, and glory to him.  And, in testimony of our desire, and assurance to be heard, we say, \"Amen.\"",
     }
 };
 
-54: "What is required in the third commandment?",
-54: "The third commandment requireth the holy and reverent use of God's names, titles, attributes, ordinances, word, and works.",
-
-55: "What is forbidden in the third commandment?",
-55: "The third commandment forbiddeth all profaning or abusing of any thing whereby God maketh himself known.",
-
-56: "What is the reason annexed to the third commandment?",
-56: "The reason annexed to the third commandment is, That however the breakers of this commandment may escape punishment from men, yet the Lord our God will not suffer them to escape his righteous judgment.",
-
-57: "Which is the fourth commandment?",
-57: "The fourth commandment is, \"Remember the sabbath-day, to keep it holy.  Six days shalt thou labour, and do all thy work: but the seventh is the sabbath of the Lord thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, they man-servant, nor thy maid-servant, nor thy cattle, nor thy stranger that is within thy gates: for in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the Lord blessed the sabbath-day and hallowed it.\"",
-
-58: "What is required in the fourth commandment?",
-58: "The fourth commandment requireth the keeping holy to God such set times as he hath appointed in his word; expressly one whole day in seven, to be a holy sabbath to himself.",
-
-59: "Which day of the seven hath God appointed to be the weekly sabbath?",
-59: "From the beginning of the world to the resurrection of Christ, God appointed the seventh day of the week to be the weekly sabbath; and the first day of the week ever since, to continue to the end of the world, which is the Christian sabbath.",
-
-60: "How is the sabbath to be sanctified?",
-60: "The sabbath is to be sanctified by a holy resting all that day, even from such worldly employments and recreations as are lawful on other days; and spending the whole time in the public and private exercises of God's worship, except so much as is to be taken up in the works of necessity and mercy.",
-
-61: "What is forbidden in the fourth commandment?",
-61: "The fourth commandment forbiddeth the omission or careless performance of the duties required, and the profaning the day by idleness, or doing that which is in itself sinful, or by unnecessary thoughts, words, or works, about our worldly employments or recreations.",
-
-62: "What are the reasons annexed to the fourth commandment?",
-62: "The reasons annexed to the fourth commandment are, God's allowing us six days of the week for our own employments, his challenging a special propriety in the seventh, his own example, and his blessing the sabbath-day.",
-
-63: "Which is the fifth commandment?",
-63: "The fifth commandment is, \"Honour thy father and thy mother; that thy days may be long upon the land which the Lord thy God giveth thee.\"",
-
-64: "What is required in the fifth commandment?",
-64: "The fifth commandment requireth the preserving the honour, and performing the duties, belonging to every one in their several places and relations, as superiors, inferiors, or equals.",
-
-65: "What is forbidden in the fifth commandment?",
-65: "The fifth commandment forbiddeth the neglecting of, or doing anything against, the honour and duty which belongeth to every one in their several places and relations.",
-
-66: "What is the reason annexed to the fifth commandment?",
-66: "The reason annexed to the fifth commandment, is a promise of long life and prosperity (as far as it shall serve for God's glory and their own good) to all such as keep this commandment.",
-
-67: "Which is the sixth commandment?",
-67: "The sixth commandment is, \"Thou shalt not kill.\"",
-
-68: "What is required in the sixth commandment?",
-68: "The sixth commandment requireth all lawful endeavours to preserve our own life, and the life of others.",
-
-69: "What is forbidden in the sixth commandment?",
-69: "The sixth commandment forbiddeth the taking away of our own life, or the life of our neighbour unjustly, or whatsoever tendeth thereunto.",
-
-70: "Which is the seventh commandment?",
-70: "The seventh commandment is, \"Thou shalt not commit adultery.\"",
-
-71: "What is required in the seventh commandment?",
-71: "The seventh commandment requireth the preservation of our own and our neighbour's chastity, in heart, speech, and behaviour.",
-
-72: "What is forbidden in the seventh commandment?",
-72: "The seventh commandment forbiddeth all unchaste thoughts, words, and actions.",
-
-73: "Which is the eighth commandment?",
-73: "The eighth commandment is, \"Thou shalt not steal.\"",
-
-74: "What is required in the eighth commandment.",
-74: "The eighth commandment requireth the lawful procuring and furthering the wealth and outward estate of ourselves and others.",
-
-75: "What is forbidden in the eighth commandment?",
-75: "The eighth commandment forbiddeth whatsoever doth or may unjustly hinder our own or our neighbour's wealth or outward estate.",
-
-76: "Which is the ninth commandment?",
-76: "The ninth commandment is, \"Thou shalt not bear false witness against thy neighbour.\"",
-
-77: "What is required in the ninth commandment?",
-77: "The ninth commandment requireth the maintaining and promoting of truth between man and man, and of our own and our neighbour's good name, especially in witness-bearing.",
-
-78: "What is forbidden in the ninth commandment?",
-78: "The ninth commandment forbiddeth whatsoever is prejudicial to the truth, or injurious to our own or our neighbour's good name.",
-
-79: "Which is the tenth commandment?",
-79: "The tenth commandment is, \"Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his man-servant, nor his maid-servant, nor his ox, nor his ass, nor any thing that is thy neighbour's.\"",
-
-80: "What is required in the tenth commandment?",
-80: "The tenth commandment requireth full contentment with our own condition, with a right and charitable frame of spirit toward our neighbour, and all that is his.",
-
-81: "What is forbidden in the tenth commandment?",
-81: "The tenth commandment forbiddeth all discontentment with our own estate, envying or grieving at the good of our neighbour, and all inordinate motions and affections to any thing that is his.",
-
-82: "Is any man able perfectly to keep the commandments of God?",
-82: "No mere man since the fall is able in this life perfectly to keep the commandments of God, but doth daily break them in thought, word, and deed.",
-
-83: "Are all transgressions of the law equally heinous?",
-83: "Some sins in themselves, and by reason of several aggravations, are more heinous in the sight of God than others.",
-
-84: "What doth every sin deserve?",
-84: "Every sin deserveth God's wrath and curse, both in this life, and that which is to come.",
-
-85: "What doth God require of us, that we may escape his wrath and curse due to us for sin?",
-85: "To escape the wrath and curse of God due to us for sin, God requireth of us faith in Jesus Christ, repentance unto life, with the diligent use of all the outward means whereby Christ communicateth to us the benefits of redemption.",
-
-86: "What is faith in Jesus Christ?",
-86: "Faith in Jesus Christ is a saving grace, whereby we receive and rest upon him alone for salvation, as he is offered to us in the gospel.",
-
-87: "What is repentance unto life?",
-87: "Repentance unto life is a saving grace, whereby a sinner, out of a true sense of his sin, and apprehension of the mercy of God in Christ, doth, with grief and hatred of his sin, turn from it unto God, with full purpose of, and endeavour after, new obedience.",
-
-88: "What are the outward means whereby Christ communicateth to us the benefits of redemption?",
-88: "The outward and ordinary means whereby Christ communicateth to us the benefits of redemption, are his ordinances, especially the word, sacraments, and prayer; all which are made effectual to the elect for salvation.",
-
-89: "How is the word made effectual to salvation?",
-89: "The Spirit of God maketh the reading, but especially the preaching of the word, an effectual means of convincing and converting sinners, and of building them up in holiness and comfort, through faith, unto salvation.",
-
-90: "How is the word to be read and heard, that it may become effectual to salvation?",
-90: "That the word may become effectual to salvation, we must attend thereunto with diligence, preparation, and prayer; receive it with faith and love, lay it up in our hearts, and practise it in our lives.",
-
-91: "How do the sacraments become effectual means of salvation?",
-91: "The sacraments become effectual means of salvation, not from any virtue in them, or in him that doth administer them; but only by the blessing of Christ, and the working of his Spirit in them that by faith receive them.",
-
-92: "What is a sacrament?",
-92: "A sacrament is an holy ordinance instituted by Christ; wherein, by sensible signs, Christ, and the benefits of the new covenant, are represented, sealed, and applied to believers.",
-
-93: "Which are the sacraments of the New Testament?",
-93: "The sacraments of the New Testament are, Baptism, and the Lord's Supper.",
-
-94: "What is baptism?",
-94: "Baptism is a sacrament, wherein the washing with water in the name of the Father, and of the Son, and of the Holy Ghost, doth signify and seal our ingrafting into Christ, and partaking of the benefits of the covenant of grace, and our engagement to be the Lord's.",
-
-95: "To whom is baptism to be administered?",
-95: "Baptism is not to be administered to any that are out of the visible church, till they profess their faith in Christ, and obedience to him; but the infants of such as are members of the visible church are to be baptized.",
-
-96: "What is the Lord's supper?",
-96: "The Lord's supper is a sacrament, wherein, by giving and receiving bread and wine, according to Christ's appointment, his death is shewed forth; and the worthy receivers are, not after a corporal and carnal manner, but by faith, made partakers of his body and blood, with all his benefits, to their spiritual nourishment, and growth in grace.",
-
-97: "What is required to the worthy receiving of the Lord's supper?",
-97: "It is required of them that would worthily partake of the Lord's supper, that they examine themselves of their knowledge to discern the Lord's body, of their faith to feed upon him, of their repentance, love, and new obedience; lest, coming unworthily, they eat and drink judgment to themselves.",
-
-98: "What is prayer?",
-98: "Prayer is an offering up of our desires unto God, for things agreeable to his will, in the name of Christ, with confession of our sins, and thankful acknowledgment of his mercies.",
-
-99: "What rule hath God given for our direction in prayer?",
-99: "The whole word of God is of use to direct us in prayer; but the special rule of direction is that form of prayer which Christ taught his disciples, commonly called \"The Lord's prayer.\"",
-
-100: "What doth the preface of the Lord's prayer teach us?",
-100: "The preface of the Lord's prayer (which is, \"Our Father which art in heaven\") teacheth us to draw near to God with all holy reverence and confidence, as children to a father, able and ready to help us; and that we should pray with and for others.",
-
-101: "What do we pray for in the first petition?",
-101: "In the first petition (which is, \"Hallowed by thy name\") we pray, That God would enable us and others to glorify him in all that whereby he maketh himself known; and that he would dispose all things to his own glory.",
-
-102: "What do we pray for in the second petition?",
-102: "In the second petition (which is, \"Thy kingdom come\") we pray, That Satan's kingdom may be destroyed; and that the kingdom of grace may be advanced, ourselves and others brought into it, and kept in it; and that the kingdom of glory may be hastened.",
-
-103: "What do we pray for in the third petition?",
-103: "In the third petition (which is, \"Thy will be done in earth, as it is in heaven\") we pray, That God, by his grace, would make us able and willing to know, obey, and submit to his will in all things, as the angels do in heaven.",
-
-104: "What do we pray for in the fourth petition?",
-104: "In the fourth petition (which is, \"Give us this day our daily bread\") we pray, That of God's free gift we may receive a competent portion of the good things of this life, and enjoy his blessing with them.",
-
-105: "What do we pray for in the fifth petition?",
-105: "In the fifth petition (which is, \"And forgive us our debts, as we forgive our debtors\") we pray, That God, for Christ's sake, would freely pardon all our sins; which we are the rather encouraged to ask, because by his grace we are enabled from the heart to forgive others.",
-
-106: "What do we pray for in the sixth petition?",
-106: "In the sixth petition (which is, \"And lead us not into temptation, but deliver us from evil\") we pray that God would either keep us from being tempted to sin, or support and deliver us when we are tempted.",
-
-107: "What doth the conclusion of the Lord's prayer teach us?",
-107: "The conclusion of the Lord's prayer (which is, \"For thine is the kingdom, and the power, and the glory, for ever. Amen\") teacheth us to take our encouragement in prayer from God only, and in our prayers to praise him, ascribing kingdom, power, and glory to him.  And, in testimony of our desire, and assurance to be heard, we say, \"Amen.\"",
 
