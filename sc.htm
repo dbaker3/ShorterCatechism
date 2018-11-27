@@ -4,9 +4,11 @@
         <meta charset="utf-8">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
         <script src="sc.js"></script>
+        <link rel="stylesheet" href="sc.css">
    </head>
-    <body>
+    <body><a href="#" id='prev'>Prev</a>
         <input id="qa-num" />
+        <a href="#" id='next'>Next</a>
         <div id="question"></div>
         <div id="answer"></div>
         <script>
@@ -24,8 +26,26 @@
                 }
                 $('#question').html("Q. " + qaNum + ". " + sc.q[qaNum]);
                 $('#answer').html("A. " + sc.a[qaNum]);
-
+                
             });
+
+            $('#prev').click(function() {
+                qaNum--;
+                showQA();
+            })
+
+            $('#next').click(function() {
+                qaNum++;
+                showQA();
+            })
+
+            function showQA() {
+                $('#question').html("Q. " + qaNum + ". " + sc.q[qaNum]);
+                $('#answer').html("A. " + sc.a[qaNum]);
+            }
+
+            showQA();
+
         </script>
     </body>
 </html>

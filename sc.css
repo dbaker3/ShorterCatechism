@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
+
+#question, #answer {
+    font-family: 'IM Fell English', serif;
+    font-size: 200%;
+    margin-top: .5em;
+    text-align: justify;
+}
+body {
+    padding: 1em;
+}
