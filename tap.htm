@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+        <script src="sc.js"></script>
+   </head>
+    <body>
+        <input id="qa-num" />
+        <div id="question"></div>
+        <div id="answer"></div>
+        <div id="wordbank"></div>
+        <script>
+            var qaNum = 1;
+            var words;
+            var percentRemoved = 0.2;
+            var wordStack = [];
+            
+            $('#qa-num').keyup(function(e) {
+                $('#wordbank').html('');
+
+                if (e.which == '13') {
+                    qaNum = $('#qa-num').val();
+                    $('#qa-num').val('');
+                }
+                else if (e.which == '37') {
+                    qaNum--;    
+                }
+                else if (e.which == '39') {
+                    qaNum++;
+                }
+                $('#question').html("Q. " + qaNum + ". " + sc.q[qaNum]);
+
+                words = sc.a[qaNum].split(" ");
+                var removeCount = Math.floor(words.length * percentRemoved); 
+                console.log(removeCount);
+                
+                for (var i = 0; i < removeCount; i++) {
+                    var removePosition = Math.floor(Math.random() * words.length);
+                    var removedWord = words[removePosition];
+                    if (removedWord != "______") {
+                        wordStack.push(removedWord);
+                        words[removePosition] = "______";
+                    }
+                    else i--;
+                }
+                
+                $('#answer').html("A. " + words.join(" "));
+
+                for (var i = 0; i < removeCount; i++) {
+                    $('#wordbank').append("<span class='banked'>" + wordStack.pop() + "</span>");
+                }
+            });
+
+            
+        </script>
+        <style>
+            body {font-size: 100%;}
+            #question, #answer {margin:10px;}
+            .banked {display:inline-block; margin:10px; padding: 10px 20px; border: 1px solid #000;cursor: pointer;}
+        </style>
+    </body>
+</html>
