@@ -49,9 +49,9 @@
             showQA();
 
             $(function() {
-                $("#question").swipe( {
+                $("html").swipe( {
                     //Generic swipe handler for all directions
-                    swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+                    swipe:function(event, direction, distance, duration, fingers, fingerCount, fingerData) {
 			if (direction == 'left') {
 			    qaNum++;
 			    showQA();
