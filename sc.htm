@@ -8,11 +8,15 @@
 	<script src="sc.js"></script>
         <link rel="stylesheet" href="sc.css">
    </head>
-    <body><img src="prev.svg" id='prev' />
+    <body><!--<img src="prev.svg" id='prev' />
         <input id="qa-num" />
-        <img src="next.svg" id='next' />
+	<img src="next.svg" id='next' />-->
         <div id="question"></div>
         <div id="answer"></div>
+        <div id="nav">
+	    <span id="prev" style="float: left;">Previous</span>
+	    <span id="next" style="float: right;">Next</span>
+	</div>
         <script>
             var qaNum = 1;
             $('#qa-num').keyup(function(e) {
@@ -51,11 +55,15 @@
             $(function() {
                 $("html").swipe( {
                     //Generic swipe handler for all directions
-                    swipe:function(event, direction, distance, duration, fingers, fingerCount, fingerData) {
+                    swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
 			if (direction == 'left') {
 			    qaNum++;
 			    showQA();
 		        }
+			if (direction == 'right') {
+			    qaNum--;
+			    showQA();
+			}
                     }
                 });
             });

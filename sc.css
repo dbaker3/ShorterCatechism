@@ -5,11 +5,24 @@ body {
     max-width: 600px;
 }
 
+#nav {
+    margin-top: 2em;
+}
+
 #prev, #next {
     height: 50px;
     cursor: pointer;
     vertical-align: middle;
+    margin-top: 1em;
+    font-family: 'IM Fell English', serif;
+    font-size: 2em;
+    font-variant: all-small-caps;
 }
+
+#next {
+    margin-left: 3em;
+}
+
 
 #qa-num {
 
