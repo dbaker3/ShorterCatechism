@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/vendor/jquery.touchSwipe/jquery.touchSwipe.min.js"></script>
 	<script src="sc.js"></script>
         <link rel="stylesheet" href="sc.css">
@@ -11,8 +11,10 @@
     <body><!--<img src="prev.svg" id='prev' />
         <input id="qa-num" />
 	<img src="next.svg" id='next' />-->
-        <div id="question"></div>
-        <div id="answer"></div>
+        <div id="card">
+            <div id="question"></div>
+            <div id="answer"></div>
+        </div>
         <div id="nav">
 	    <span id="prev" style="float: left;">Previous</span>
 	    <span id="next" style="float: right;">Next</span>
@@ -56,14 +58,19 @@
                 $("html").swipe( {
                     //Generic swipe handler for all directions
                     swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
-			if (direction == 'left') {
-			    qaNum++;
-			    showQA();
-		        }
-			if (direction == 'right') {
-			    qaNum--;
-			    showQA();
-			}
+                        if (direction == 'left') {
+                            $('#card').animate({left: -$('body').width()}, 500, function() {$('#card').hide(); showQA();});
+                            $('#card').animate({left: $('body').width()}, 1, function() {$('#card').show()});
+                            $('#card').animate({left: '0px'}, 500, function() {$('#card').css('left', '');});
+                            qaNum++;
+                            }
+                        if (direction == 'right') {
+                            $('#card').animate({right: -$('body').width()}, 500, function() {$('#card').hide(); showQA();});
+                            $('#card').animate({right: $('body').width()}, 1, function() {$('#card').show()});
+                            $('#card').animate({right: '0px'}, 500, function() {$('#card').css('right', '');});
+                            
+                            qaNum--;
+                        }
                     }
                 });
             });

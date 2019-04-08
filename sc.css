@@ -1,10 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
 
 body {
-    padding: 1em;
-    max-width: 600px;
+    overflow: hidden;
+    margin: 0 2em;
 }
 
+#card {
+    margin: 2em auto;
+    max-width: 600px;
+    padding: 1em;
+    border: 1px solid #a7a7a7;
+    position: relative;
+    box-shadow: 1px 1px 15px #ddd;
+    border-radius: 3px;
+    background: #fbf5ee;
+}
+
+@media (max-width: 767px) {                  
+   #nav {
+      display: none;
+   }
+}
 #nav {
     margin-top: 2em;
 }
@@ -36,6 +52,9 @@ body {
 #question, #answer {
     font-family: 'IM Fell English', serif;
     font-size: 200%;
-    margin-top: .5em;
     text-align: justify;
+}
+
+#answer {
+    margin-top: .5em;
 }
