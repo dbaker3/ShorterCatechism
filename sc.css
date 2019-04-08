@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
 
 body {
-    overflow: hidden;
+    x-overflow: hidden;
     margin: 0 2em;
 }
 
